@@ -2,7 +2,7 @@
 https://www.linkedin.com/in/riaannolan/
 
 ## Instructions
-* Please download Virtualbox from https://www.virtualbox.org/wiki/Downloads and Vagrant from https://www.vagrantup.com/downloads.html
+* Please download Virtualbox from https://www.virtualbox.org/wiki/Downloads and Vagrant from https://www.vagrantup.com/downloads.html and install 
 * Clone this repo
 * Inside the local repo folder, do `vagrant up --provision`
 * Open http://www.example in your browser
