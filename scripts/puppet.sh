@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # this file knock a sequence of ports and opens iptables or aws sec. group if call succeed
 
-PUPPET_MASTER=puppet.tld
+PUPPET_MASTER=puppet-master.tld
 KNOCK_HOST="${PUPPET_MASTER}"
 KNOCK_PORTS="3333 6666 9999"
 KNOCK_LOOPS=0

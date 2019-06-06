@@ -2,9 +2,10 @@
 https://www.linkedin.com/in/riaannolan/
 
 ## Instructions
-* Please download Virtualbox from https://www.virtualbox.org/wiki/Downloads and Vagrant from https://www.vagrantup.com/downloads.html and install 
+* Please download Virtualbox from https://www.virtualbox.org/wiki/Downloads and Vagrant from https://www.vagrantup.com/downloads.html and install
 * Clone this repo
-* Inside the local repo folder, do `vagrant up --provision`
+* Vagrant: Inside the local repo folder, do `vagrant up --provision`
+* Docker: Inside the local repo folder, do `sudo docker run -dit --name riaan -p 8080:80 -v html:/usr/local/apache2/htdocs/ httpd:2.4`
 * Open http://www.example in your browser
 
 ### Vagrant Basic Usage
@@ -17,5 +18,8 @@ https://www.linkedin.com/in/riaannolan/
 * vagrant destroy
 * vagrant provision
 * vagrant plugin list
+
+### Docker Basic Usage
+* sudo docker run -dit --name riaan -p 8080:80 -v html:/usr/local/apache2/htdocs/ httpd:2.4
 
 Checkout the repo! More detailed steps to follow __soon__
