@@ -1,8 +1,11 @@
 # Riaan Nolan - riaan.nolan@gmail.com
 https://www.linkedin.com/in/riaannolan/
 
-## This Repo contains
-a Vagrantfile - please download Virtualbox from https://www.virtualbox.org/wiki/Downloads and Vagrant from https://www.vagrantup.com/downloads.html
+## Instructions
+* Please download Virtualbox from https://www.virtualbox.org/wiki/Downloads and Vagrant from https://www.vagrantup.com/downloads.html
+* Clone this repo
+* Inside the local repo folder, do `vagrant up --provision`
+* Open http://www.example in your browser
 
 ### Vagrant Basic Usage
 * vagrant up --provision OR vagrant up --provision-with bootstrap
