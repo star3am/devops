@@ -5,8 +5,9 @@ https://www.linkedin.com/in/riaannolan/
 * Please download Virtualbox from https://www.virtualbox.org/wiki/Downloads and Vagrant from https://www.vagrantup.com/downloads.html and install
 * Clone this repo
 * Vagrant: Inside the local repo folder, do `vagrant up --provision`
-* Docker: Inside the local repo folder, do `sudo docker run -dit --name riaan -p 8080:80 -v html:/usr/local/apache2/htdocs/ httpd:2.4`
-* Open http://www.example in your browser
+* Docker: Inside the local repo folder, do `sudo docker run -dit -p 8080:80 -v /media/riaan/external/riaan/Desktop/workspace/riaannolan/devops/html/:/usr/local/apache2/htdocs/ httpd:2.4`
+* Vagrant: Open http://www.example in your browser
+* Docker: Open http://localhost:8080 in your browser
 
 ### Vagrant Basic Usage
 * vagrant up --provision OR vagrant up --provision-with bootstrap
@@ -20,6 +21,8 @@ https://www.linkedin.com/in/riaannolan/
 * vagrant plugin list
 
 ### Docker Basic Usage
-* sudo docker run -dit --name riaan -p 8080:80 -v html:/usr/local/apache2/htdocs/ httpd:2.4
+* docker image ls
+* docker ps
+* docker stop
 
 Checkout the repo! More detailed steps to follow __soon__
